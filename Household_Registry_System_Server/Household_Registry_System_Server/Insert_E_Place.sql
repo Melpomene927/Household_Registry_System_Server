@@ -1,0 +1,110 @@
+﻿USE FamilyGroup
+GO
+
+
+--DELETE FROM E_Place
+--DBCC CHECKIDENT ('[E_Place]',RESEED,0);
+--GO
+
+--ALTER TABLE [E_Place]
+--ALTER COLUMN [Country] nvarchar(50) not null
+
+INSERT INTO E_Place([City],[Country]) VALUES('Sint-Martens-Bodegem','Tuvalu');
+INSERT INTO E_Place([City],[Country]) VALUES('Henley-on-Thames','Norway');
+INSERT INTO E_Place([City],[Country]) VALUES('Elgin','Bahamas');
+INSERT INTO E_Place([City],[Country]) VALUES('Eckville','Burundi');
+INSERT INTO E_Place([City],[Country]) VALUES('Itabuna','Benin');
+INSERT INTO E_Place([City],[Country]) VALUES('Quinte West','Bosnia and Herzegovina');
+INSERT INTO E_Place([City],[Country]) VALUES('Huntsville','Colombia');
+INSERT INTO E_Place([City],[Country]) VALUES('Srinagar','Malawi');
+INSERT INTO E_Place([City],[Country]) VALUES('Raj Nandgaon','Cook Islands');
+INSERT INTO E_Place([City],[Country]) VALUES('Assiniboia','Tajikistan');
+INSERT INTO E_Place([City],[Country]) VALUES('Lugo','Kenya');
+INSERT INTO E_Place([City],[Country]) VALUES('Bristol','Papua New Guinea');
+INSERT INTO E_Place([City],[Country]) VALUES('Collines-de-l''Outaouais','Malaysia');
+INSERT INTO E_Place([City],[Country]) VALUES('Kisi','Togo');
+INSERT INTO E_Place([City],[Country]) VALUES('Reus','Curaçao');
+INSERT INTO E_Place([City],[Country]) VALUES('Villamassargia','Gibraltar');
+INSERT INTO E_Place([City],[Country]) VALUES('Ludhiana','Saint Lucia');
+INSERT INTO E_Place([City],[Country]) VALUES('Alloa','Mauritius');
+INSERT INTO E_Place([City],[Country]) VALUES('Feldkirchen in Kärnten','Reunion');
+INSERT INTO E_Place([City],[Country]) VALUES('Sossano','Uruguay');
+INSERT INTO E_Place([City],[Country]) VALUES('Tuktoyaktuk','Saint Vincent and The Grenadines');
+INSERT INTO E_Place([City],[Country]) VALUES('Virelles','Fiji');
+INSERT INTO E_Place([City],[Country]) VALUES('Granada','Bhutan');
+INSERT INTO E_Place([City],[Country]) VALUES('Hattiesburg','Seychelles');
+INSERT INTO E_Place([City],[Country]) VALUES('Erli','Sao Tome and Principe');
+INSERT INTO E_Place([City],[Country]) VALUES('Annone di Brianza','Niue');
+INSERT INTO E_Place([City],[Country]) VALUES('Smoky Lake','Northern Mariana Islands');
+INSERT INTO E_Place([City],[Country]) VALUES('Trier','Armenia');
+INSERT INTO E_Place([City],[Country]) VALUES('Pointe-du-Lac','Panama');
+INSERT INTO E_Place([City],[Country]) VALUES('Burnaby','Bhutan');
+INSERT INTO E_Place([City],[Country]) VALUES('Villers-le-Peuplier','Cuba');
+INSERT INTO E_Place([City],[Country]) VALUES('Torella del Sannio','Peru');
+INSERT INTO E_Place([City],[Country]) VALUES('Merseburg','Sint Maarten');
+INSERT INTO E_Place([City],[Country]) VALUES('Gönen','Jersey');
+INSERT INTO E_Place([City],[Country]) VALUES('Fort St. John','Bonaire, Sint Eustatius and Saba');
+INSERT INTO E_Place([City],[Country]) VALUES('Bruderheim','United States Minor Outlying Islands');
+INSERT INTO E_Place([City],[Country]) VALUES('Vandoeuvre-lès-Nancy','Colombia');
+INSERT INTO E_Place([City],[Country]) VALUES('Huissen','Korea, North');
+INSERT INTO E_Place([City],[Country]) VALUES('Burns Lake','Israel');
+INSERT INTO E_Place([City],[Country]) VALUES('Linz','Zimbabwe');
+INSERT INTO E_Place([City],[Country]) VALUES('Baricella','Puerto Rico');
+INSERT INTO E_Place([City],[Country]) VALUES('St. Austell','Suriname');
+INSERT INTO E_Place([City],[Country]) VALUES('Ingooigem','Nigeria');
+INSERT INTO E_Place([City],[Country]) VALUES('Spittal an der Drau','Albania');
+INSERT INTO E_Place([City],[Country]) VALUES('Edmundston','Belize');
+INSERT INTO E_Place([City],[Country]) VALUES('Orosei','Afghanistan');
+INSERT INTO E_Place([City],[Country]) VALUES('Feira de Santana','Papua New Guinea');
+INSERT INTO E_Place([City],[Country]) VALUES('Palagano','Barbados');
+INSERT INTO E_Place([City],[Country]) VALUES('Wörgl','Indonesia');
+INSERT INTO E_Place([City],[Country]) VALUES('Potenza','French Guiana');
+INSERT INTO E_Place([City],[Country]) VALUES('Cassano Spinola','Chile');
+INSERT INTO E_Place([City],[Country]) VALUES('Criciúma','Christmas Island');
+INSERT INTO E_Place([City],[Country]) VALUES('Biggleswade','Belize');
+INSERT INTO E_Place([City],[Country]) VALUES('Concepción','Nigeria');
+INSERT INTO E_Place([City],[Country]) VALUES('Comblain-Fairon','Cuba');
+INSERT INTO E_Place([City],[Country]) VALUES('Pittsburgh','Senegal');
+INSERT INTO E_Place([City],[Country]) VALUES('Leers-et-Fosteau','Moldova');
+INSERT INTO E_Place([City],[Country]) VALUES('Saint-Laurent','Norfolk Island');
+INSERT INTO E_Place([City],[Country]) VALUES('Ellon','Australia');
+INSERT INTO E_Place([City],[Country]) VALUES('Kingston','Nauru');
+INSERT INTO E_Place([City],[Country]) VALUES('Beaumont','Puerto Rico');
+INSERT INTO E_Place([City],[Country]) VALUES('Lelystad','Ecuador');
+INSERT INTO E_Place([City],[Country]) VALUES('Joliet','Belgium');
+INSERT INTO E_Place([City],[Country]) VALUES('Worcester','Iran');
+INSERT INTO E_Place([City],[Country]) VALUES('Nivelles','Russian Federation');
+INSERT INTO E_Place([City],[Country]) VALUES('Irricana','Jersey');
+INSERT INTO E_Place([City],[Country]) VALUES('Banff','Virgin Islands, United States');
+INSERT INTO E_Place([City],[Country]) VALUES('Colomiers','Qatar');
+INSERT INTO E_Place([City],[Country]) VALUES('Haridwar','Cook Islands');
+INSERT INTO E_Place([City],[Country]) VALUES('Cassaro','Eritrea');
+INSERT INTO E_Place([City],[Country]) VALUES('Kapolei','Brazil');
+INSERT INTO E_Place([City],[Country]) VALUES('Isola di Capo Rizzuto','Aruba');
+INSERT INTO E_Place([City],[Country]) VALUES('Sfruz','Malta');
+INSERT INTO E_Place([City],[Country]) VALUES('Henderson','Cyprus');
+INSERT INTO E_Place([City],[Country]) VALUES('Asse','Cayman Islands');
+INSERT INTO E_Place([City],[Country]) VALUES('Gelsenkirchen','Trinidad and Tobago');
+INSERT INTO E_Place([City],[Country]) VALUES('Lanark','Côte D''Ivoire (Ivory Coast)');
+INSERT INTO E_Place([City],[Country]) VALUES('Aurora','Bahrain');
+INSERT INTO E_Place([City],[Country]) VALUES('LaSalle','Norway');
+INSERT INTO E_Place([City],[Country]) VALUES('Caldarola','Nepal');
+INSERT INTO E_Place([City],[Country]) VALUES('Tramutola','Viet Nam');
+INSERT INTO E_Place([City],[Country]) VALUES('Roermond','Colombia');
+INSERT INTO E_Place([City],[Country]) VALUES('Surbo','Bahamas');
+INSERT INTO E_Place([City],[Country]) VALUES('Vance','Falkland Islands');
+INSERT INTO E_Place([City],[Country]) VALUES('Rignano Garganico','Côte D''Ivoire (Ivory Coast)');
+INSERT INTO E_Place([City],[Country]) VALUES('Montreal','Morocco');
+INSERT INTO E_Place([City],[Country]) VALUES('Panipat','Serbia');
+INSERT INTO E_Place([City],[Country]) VALUES('Rangiora','Russian Federation');
+INSERT INTO E_Place([City],[Country]) VALUES('Sogliano Cavour','Svalbard and Jan Mayen Islands');
+INSERT INTO E_Place([City],[Country]) VALUES('Nanded','Laos');
+INSERT INTO E_Place([City],[Country]) VALUES('Kearny','Reunion');
+INSERT INTO E_Place([City],[Country]) VALUES('Leers-et-Fosteau','Cyprus');
+INSERT INTO E_Place([City],[Country]) VALUES('Columbus','Bahrain');
+INSERT INTO E_Place([City],[Country]) VALUES('Eisleben','Latvia');
+INSERT INTO E_Place([City],[Country]) VALUES('Leighton Buzzard','Barbados');
+INSERT INTO E_Place([City],[Country]) VALUES('Acquafredda','Tuvalu');
+INSERT INTO E_Place([City],[Country]) VALUES('Velden am Wörther See','Northern Mariana Islands');
+INSERT INTO E_Place([City],[Country]) VALUES('Montbéliard','Peru');
+INSERT INTO E_Place([City],[Country]) VALUES('Seattle','Myanmar');

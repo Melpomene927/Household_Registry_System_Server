@@ -1,9 +1,328 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SqlWorkbenchSqlProject">
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Household_Registry_System_Server">
   <Items>
-    <LogicalFolder Name="Connections" Type="2" />
-    <LogicalFolder Name="Queries" Type="0" />
-    <LogicalFolder Name="Miscellaneous" Type="3" />
-
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="DEV0417-PC\SQL2012:sa">
+          <Created>2015-08-19T16:40:34.9538145+08:00</Created>
+          <Type>SQL</Type>
+          <Server>DEV0417-PC\SQL2012</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Constraint_E_Apartment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_E_Apartment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_E_Motorcycle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_E_Motorcycle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_E_Vehicle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_E_Vehicle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_ER_Birth.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_ER_Birth.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_ER_Family_members.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_ER_Family_members.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_ER_Marriage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_ER_Marriage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_ER_Offer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_ER_Offer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_R_Born_place.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_R_Born_place.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_R_Manage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_R_Manage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_R_Marriage_location.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_R_Marriage_location.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_R_Own.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_R_Own.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_R_Purchased.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_R_Purchased.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_R_Relation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_R_Relation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_R_Residence.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_R_Residence.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_R_Work.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_R_Work.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Constraint_User_login.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Constraint_User_login.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_E_Apartment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_E_Apartment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_E_Company.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_E_Company.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_E_Family.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_E_Family.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_E_Job_position.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_E_Job_position.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_E_Motorcycle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_E_Motorcycle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_E_Personal_Information.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_E_Personal_Information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_E_Place.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_E_Place.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_E_Relationship_type.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_E_Relationship_type.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_E_Vehicle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_E_Vehicle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_ER_Birth.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_ER_Birth.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_ER_Family_members.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_ER_Family_members.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_ER_Marriage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_ER_Marriage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_ER_Offer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_ER_Offer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_R_Born_place.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_R_Born_place.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_R_Manage.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_R_Manage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_R_Marriage_location.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_R_Marriage_location.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_R_Own.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_R_Own.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_R_Purchased.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_R_Purchased.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_R_Relation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_R_Relation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_R_Residence.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_R_Residence.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_R_Work.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_R_Work.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_U_Properties.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_U_Properties.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create_User_login.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Create_User_login.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fn_Check_user_id_valid.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fn_Check_user_id_valid.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fn_ER_Marriage_Enddate.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>fn_ER_Marriage_Enddate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fn_Residence_Enddate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>fn_Residence_Enddate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_E_Apartment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert_E_Apartment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_E_Company.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert_E_Company.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_E_Job_position.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert_E_Job_position.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_E_Motorcycle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert_E_Motorcycle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_E_Personal_information.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert_E_Personal_information.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_E_Place.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert_E_Place.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_E_Vehicle.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert_E_Vehicle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert_U_Properties.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DEV0417-PC\SQL2012:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DEV0417-PC\SQL2012</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Insert_U_Properties.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
